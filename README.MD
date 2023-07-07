@@ -100,10 +100,7 @@ Overall, the app leverages a combination of MongoDB Atlas, Google Cloud products
 
 
 
-##Author: **Bonface & Dominic** ##Track: **Google Cloud Associate Engineer**
-
-
-See the app in action here -> [https://chachaplogistics.netlify.app]
+See the app in action here -> [https://play.google.com/store/apps/details?id=com.imbuga.chapchap]
 
 ## Design & Process #ff7519
 
