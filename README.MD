@@ -3,6 +3,81 @@
 
 ### See the app in action here -> [https://play.google.com/store/apps/details?id=com.imbuga.chapchap] 
 
+
+week 1
+- Ideation - to come up with a Project idea
+  personas
+- Breakdown your project into tasks
+- Report the total number of tasks for the project
+- Assign tasks to all te team members
+- Plan and scedule stand ups within your team
+- Plan a weekly Demo schedule with your Supervisor
+- Set up your Github repo for te project
+
+Other weeks
+
+- Sprint planning
+- Coding
+- Code Review
+- Deployment
+- Sprint Review
+
+  # Configure GCP
+
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo apt-get install git
+sudo npm install pm2 -g
+
+Project in Action - [Jobify](https://www.jobify.live/)
+
+Find the App Useful? [You can always buy me a coffee](paypal:imbugad@gmail.com)
+
+#### Run The App Locally
+
+```sh
+npm run install-dependencies
+```
+
+- rename .env.temp to .env
+- setup values for - MONGO_URL, JWT_SECRET, JWT_LIFETIME
+
+```sh
+npm start
+```
+
+- visit url http://localhost:3000/
+
+
+
+  onPress={async () => await AsyncStorage.removeItem("@user")}
+
+
+
+  ------------------------------------
+
+  Back-end and GCP setup (Node.Js )
+
+  1. Create VM , 
+  2. Configure API's runtime environment
+      - Node - Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.Node.js binary distributions are available from NodeSource.https://github.com/nodesource/distributions
+
+     package-manager#debian-and-ubuntu-based-linux-distributions
+      - PM2 - ADVANCED, PRODUCTION PROCESS MANAGER FOR NODE.JS
+PM2 is a daemon process manager that will help you manage and keep your application online 24/7 https://pm2.keymetrics.io/
+  3. Git clone repo
+  4. In the project directory, 
+       - Setup .env file ==> touch .env && nano .env -> copy paste secrets & save
+       - Run npm install  ---> npm i
+       - Run pm2   ------- sudo pm2 start server.js && sudo pm2 monit
+       - server > Server is listening on port 80...   
+
+  5. Configure load balancing for the API with your domain name
+
+  Mobile Setup (React Native)
+
+  - Use EAS to deploy to play store
+
 ## 1. Public URL and Access to Code Repository:
    - We will host the project on a public code repository platform like GitHub, ensuring visibility for the judges to review the code.
    - The code repository will contain the entire project, including frontend code, backend configurations, and any additional scripts or resources.
@@ -111,22 +186,22 @@ An e-commerce platform that enables African farmers, artisans and creators to se
 
 ### List a few main features:
 
-- Buyers can search for and matchfarmers based on location langauge, skills, goals, and country
+- Buyers can search for and match farmers based on location langauge, skills, goals, and country
 - Pricing will be individualised based on organizations preference and demand , it will be free for not-for-profit and charity orgarnisations
 - Strong social media interration with reviews, posts and analytics
-- Managers can upload mentor and buyers in pdf, json or excell data formats
+- Managers can upload farmer and buyers in pdf, json or excell data formats
 
 ### List roles of typical users:
 
 a. Farm Manager
-b. Mentor
+b. farmer
 c. Mentee
 
 ## 2a. Writing user personas
 
 Ibrahim is a busy working project Manager who wants to access chapchap logistics and make sure that he can see all e-logistics activities of his Program. He also uses chapchap logistics to see engagement reports, detailed meeting lists, graphics, custom reports. He also uses the mobile app to automate meeting and calls with farmers and buyers. Ibrahim wants to save time and money, and he wants a farmers Management platform that gives his time back.
 
-Dominic is a mentor and a busy start-up founder who wants to send direct messages or join video calls his buyers and to explore tools that will save him time and learn in the process . Dominic likes to perform all operations on her phone.
+Dominic is a farmer and a busy start-up founder who wants to send direct messages or join video calls his buyers and to explore tools that will save him time and learn in the process . Dominic likes to perform all operations on her phone.
 
 ## 2b. Writing user stories
 
@@ -135,7 +210,7 @@ Search for for farmers and buyers
 As a Farm Manager , I want to search for farmers and buyers of my e-logistics program , see engagement reports, detailed meeting lists, graphics, custom reports of all e-logistics activities.
 
 Check useful graphics
-As a Mentor, I want to Check useful graphics to measure my e-logistics program.
+As a farmer, I want to Check useful graphics to measure my e-logistics program.
 
 ## 3. Defining SLIs and SLOs
 
@@ -360,50 +435,3 @@ MongoDB Atlas + 2 VMs + Load balancer
 
 $574.71/month
 
-week 1
-
-- Ideation - to come up with a Project idea
-  personas
-  a.admin - can See all e-logistics activities of your farmers and buyers.
-  b. farmers - can Check useful graphics to measure your e-logistics program. Engagement reports, detailed meeting lists, graphics, custom reports...
-
-c. buyers - can be It's possible to create a custom algorithm.You may also pair your farmers and buyers manually.
-
-MESSAGES & VIDEO CALLS
-How to import my data from my HR system to chapchap logistics?
-Send direct messages or join video calls to explore tools.
-Mentornity generates ZOOM and JITSI meeting links automatically.
-
-Let's make your e-logistics program effective and measurable.
-We provide all solutions and services to start, manage, and evaluate a e-logistics program successfully!
-
-- Breakdown your project into tasks
-- Report the total number of tasks for the project
-- Assign tasks to all te team members
-- Plan and scedule stand ups within your team
-- Plan a weekly Demo schedule with your Supervisor
-- Set up your Github repo for te project
-
-Other weeks
-
-- Sprint planning
-- Coding
-- Code Review
-- Deployment
-- Sprint Review
-
-  
-
-
-
-## "Empowering African Agriculture through Innovative Technology"
-
-## "Transforming Agritech in Africa: Connecting Farmers to Success"
-
-## "Revolutionizing Farming in Africa: Harnessing the Power of Technology"
-
-## "Agriculture Made Easy: Your Digital Companion for Farming Success"
-
-## "From Soil to Market: Unleashing the Potential of African Agriculture"
-
-##"Bringing Modern Farming to Africa: Cultivating Growth and Sustainability"
