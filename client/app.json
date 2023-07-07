@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "chapchap",
+    "slug": "chapchap",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "chapchap",
+
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAzEyoWn-5M69xQpZDRE5Bp4VEizHyydfA"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.imbuga.chapchap",
+      "versionCode": 6
+     
+    },
+   
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f3f82dc4-a9e1-4b29-a5ee-a1ef63337aa1"
+      }
+    }
+  }
+}
