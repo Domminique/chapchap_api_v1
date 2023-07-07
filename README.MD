@@ -1,33 +1,13 @@
-
-week 1
-
-- Ideation - to come up with a Project idea
-  personas
-  a.admin - can See all e-logistics activities of your farmers and buyers.
-  b. farmers - can Check useful graphics to measure your e-logistics program. Engagement reports, detailed meeting lists, graphics, custom reports...
-
-c. buyers - can be It's possible to create a custom algorithm.You may also pair your farmers and buyers manually.
+# CHAPCHAP E-Logistics : From Soil to Market: Unleashing the Potential of African Agriculture
 
 
-Let's make your e-logistics program effective and measurable.
-We provide all solutions and services to start, manage, and evaluate a e-logistics program successfully!
+## 1. Public URL and Access to Code Repository:
+   - We will host the project on a public code repository platform like GitHub, ensuring visibility for the judges to review the code.
+   - The code repository will contain the entire project, including frontend code, backend configurations, and any additional scripts or resources.
 
-- Breakdown your project into tasks
-- Report the total number of tasks for the project
-- Assign tasks to all te team members
-- Plan and scedule stand ups within your team
-- Plan a weekly Demo schedule with your Supervisor
-- Set up your Github repo for te project
 
-Other weeks
 
-- Sprint planning
-- Coding
-- Code Review
-- Deployment
-- Sprint Review
-
-  # Configure GCP
+# Configure GCP
 
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -49,32 +29,75 @@ npm run install-dependencies
 
 ```sh
 npm start
+
 ```
 
 - visit url http://localhost:3000/
 
 
+## 2. Architecture Diagram:
+   - We will create a high-level architecture diagram illustrating the components and their interactions within the app.
+   - The diagram will showcase the integration of MongoDB Atlas, Google Cloud products, and other relevant services or APIs used in the app.
 
 
 
+   
+
+## 3. Text Description:
+   - The text description will provide a detailed explanation of how we integrated the tools used in the app, including MongoDB Atlas, Google Cloud products, and other services.
+   - We will highlight the key features, functionalities, and technologies employed, emphasizing how they address the challenge requirements and SDG 9.
 
 
+   The app is designed to provide an easy-to-use and intuitive experience for users in the African market. Here's how it works:
+
+User Registration and Authentication:
+
+Users can register and create an account using their email address, phone number, or social media accounts.
+
+The app integrates Firebase Authentication, ensuring secure and reliable user authentication.
+User Interface and Navigation:
+
+The mobile app offers a user-friendly interface with intuitive navigation, making it easy for users to access various features.
+
+The app's layout and design are optimized for mobile devices, ensuring a seamless experience.
+
+Generative AI Application:
+
+The app incorporates generative AI capabilities, which can offer personalized recommendations, generate content (text or images), or provide language translation services.
+
+Users can interact with the generative AI feature to receive tailored suggestions, creative outputs, or translation assistance.
 
 
+Search and Discovery:
 
-# CHAPCHAP E-Logistics
+MongoDB Atlas Search is integrated into the app to provide fast and accurate search results.
+Users can search for specific data or information within the app, such as products, articles, services, or user-generated content.
 
-## "Empowering African Agriculture through Innovative Technology"
+Google Cloud's Natural Language Processing (NLP) capabilities analyze the data to provide contextual search results, enhancing the search experience.
 
-## "Transforming Agritech in Africa: Connecting Farmers to Success"
+Payments:
 
-## "Revolutionizing Farming in Africa: Harnessing the Power of Technology"
+The app facilitates secure and seamless payment transactions for various purposes, such as purchasing products or services.
 
-## "Agriculture Made Easy: Your Digital Companion for Farming Success"
+It integrates a payment gateway that supports African payment methods, such as mobile money, local bank transfers, or digital wallets.
 
-## "From Soil to Market: Unleashing the Potential of African Agriculture"
+Users can make payments within the app, ensuring a convenient and trusted payment process.
 
-##"Bringing Modern Farming to Africa: Cultivating Growth and Sustainability"
+Offline Functionality:
+
+The app includes offline functionality to address the limited internet connectivity in some African regions.
+
+Users can access certain features and data offline, such as viewing previously accessed information, composing messages, or drafting content.
+
+When internet connectivity is restored, the app synchronizes the offline data with the backend, ensuring data consistency.
+
+Overall, the app leverages a combination of MongoDB Atlas, Google Cloud products, and other relevant technologies to deliver a seamless user experience. It incorporates authentication for security, generative AI for personalized recommendations, MongoDB Atlas Search and Google Cloud NLP for efficient search, a reliable payment gateway for seamless transactions, and offline functionality to overcome connectivity challenges.
+
+## 4. Demo Video:
+   - We will create a three-minute demo video showcasing the app in action, highlighting its features and how it addresses the challenge requirements.
+   - The video will demonstrate the app's user interface, authentication process, generative AI capabilities, search functionality, payment processing, and offline functionality.
+
+
 
 
 ##Author: **Bonface & Dominic** ##Track: **Google Cloud Associate Engineer**
@@ -339,3 +362,50 @@ MongoDB Atlas + 2 VMs + Load balancer
 
 $574.71/month
 
+week 1
+
+- Ideation - to come up with a Project idea
+  personas
+  a.admin - can See all e-logistics activities of your farmers and buyers.
+  b. farmers - can Check useful graphics to measure your e-logistics program. Engagement reports, detailed meeting lists, graphics, custom reports...
+
+c. buyers - can be It's possible to create a custom algorithm.You may also pair your farmers and buyers manually.
+
+MESSAGES & VIDEO CALLS
+How to import my data from my HR system to chapchap logistics?
+Send direct messages or join video calls to explore tools.
+Mentornity generates ZOOM and JITSI meeting links automatically.
+
+Let's make your e-logistics program effective and measurable.
+We provide all solutions and services to start, manage, and evaluate a e-logistics program successfully!
+
+- Breakdown your project into tasks
+- Report the total number of tasks for the project
+- Assign tasks to all te team members
+- Plan and scedule stand ups within your team
+- Plan a weekly Demo schedule with your Supervisor
+- Set up your Github repo for te project
+
+Other weeks
+
+- Sprint planning
+- Coding
+- Code Review
+- Deployment
+- Sprint Review
+
+  
+
+
+
+## "Empowering African Agriculture through Innovative Technology"
+
+## "Transforming Agritech in Africa: Connecting Farmers to Success"
+
+## "Revolutionizing Farming in Africa: Harnessing the Power of Technology"
+
+## "Agriculture Made Easy: Your Digital Companion for Farming Success"
+
+## "From Soil to Market: Unleashing the Potential of African Agriculture"
+
+##"Bringing Modern Farming to Africa: Cultivating Growth and Sustainability"
