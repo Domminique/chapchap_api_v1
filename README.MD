@@ -1,6 +1,8 @@
 # CHAPCHAP E-Logistics : From Soil to Market: Unleashing the Potential of African Agriculture
 
 
+### See the app in action here -> [https://play.google.com/store/apps/details?id=com.imbuga.chapchap] 
+
 ## 1. Public URL and Access to Code Repository:
    - We will host the project on a public code repository platform like GitHub, ensuring visibility for the judges to review the code.
    - The code repository will contain the entire project, including frontend code, backend configurations, and any additional scripts or resources.
@@ -100,7 +102,6 @@ Overall, the app leverages a combination of MongoDB Atlas, Google Cloud products
 
 
 
-See the app in action here -> [https://play.google.com/store/apps/details?id=com.imbuga.chapchap]
 
 ## Design & Process #ff7519
 
