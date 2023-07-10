@@ -1,6 +1,59 @@
 # CHAPCHAP E-Logistics : From Soil to Market: Unleashing the Potential of African Agriculture
 
+chap-chap-eovej
 
+
+your application for the Google for Startups Cloud Program
+username --> Public Key = bvkeelgv
+
+password  -> Private Key= 1a81dfe4-225b-4b5c-bc5f-f43a534eb2a6
+
+
+IP Access List -> 41.90.68.238
+
+--------------------------
+Programmatic Access to a Project 
+
+Testing Project API Key
+
+Public Key = wvetwkdx
+Private Key= a2db7fd2-33e6-4d2e-ae8c-73021c96fb30
+
+IP Access List 41.90.68.238
+-----------------------
+Part Two - projectv level API
+
+Public Key = hbraaiak
+
+Private Key = c4b0605c-4325-4dc7-92b3-0c22a7fa9cd1
+
+IP = 41.90.68.238
+
+https://cloud.mongodb.com/api/atlas/<version>
+
+------------------------
+DB Admin
+
+The following sample GET request 
+returns all projects
+ in your organization:
+curl --user "{PUBLIC-KEY}:{PRIVATE-KEY}" --digest \
+      --header "Content-Type: application/json" \
+      --include \
+      --request GET "https://cloud.mongodb.com/api/atlas/v1.0/groups"
+
+ The following sample POST request takes a request body and creates a project named MyProject in your organization:     
+
+
+curl --user "{PUBLIC-KEY}:{PRIVATE-KEY}" --digest \
+      --header "Content-Type: application/json" \
+      --include \
+      --request POST "https://cloud.mongodb.com/api/atlas/v1.0/groups" \
+      --data '
+         {
+            "name": "MyProject",
+            "orgId": "5a0a1e7e0f2912c554080adc"
+         }'
 ### See the app in action here -> [https://play.google.com/store/apps/details?id=com.imbuga.chapchap] 
 
 
@@ -79,6 +132,8 @@ PM2 is a daemon process manager that will help you manage and keep your applicat
   - Use EAS to deploy to play store
 
 ## 1. Public URL and Access to Code Repository:
+
+  -url--> https://github.com/Domminique/chapchap_api_v1
    - We will host the project on a public code repository platform like GitHub, ensuring visibility for the judges to review the code.
    - The code repository will contain the entire project, including frontend code, backend configurations, and any additional scripts or resources.
 
@@ -435,3 +490,28 @@ MongoDB Atlas + 2 VMs + Load balancer
 
 $574.71/month
 
+
+
+If I were a farmer in Kakamega County, I would grow the following crops to improve food security and make it a sustainable business that uses technology as an enabler while producing natural healthy food:
+
+Sweet potatoes: Sweet potatoes are a drought-resistant crop that can be grown in a variety of soil types. They are also a good source of vitamins and minerals, making them a healthy food choice. Sweet potatoes can be grown using drip irrigation, which can help to conserve water.
+Sweet potatoes cropOpens in a new window
+growfully.com
+Sweet potatoes crop
+Cassava: Cassava is another drought-resistant crop that can be grown in poor soil. It is also a good source of carbohydrates, making it a staple food for many people in Kenya. Cassava can be grown using intercropping, which is a method of planting different crops together. This can help to improve soil fertility and reduce the risk of pests and diseases.
+Cassava cropOpens in a new window
+croplife.org
+Cassava crop
+Avocados: Avocados are a high-value crop that can be grown in Kakamega County. They are also a good source of healthy fats and vitamins. Avocados can be grown using drip irrigation and fertigation, which is a method of applying nutrients to the soil through the irrigation system. This can help to improve the quality and yield of avocados.
+Avocados cropOpens in a new window
+www.greenlife.co.ke
+Avocados crop
+Sunflowers: Sunflowers are a relatively new crop in Kenya, but they have the potential to be a valuable cash crop. They are a good source of oil, which can be used for cooking or for making biodiesel. Sunflowers can be grown using drip irrigation and intercropping.
+Sunflowers cropOpens in a new window
+ucanr.edu
+Sunflowers crop
+I would use technology to help me to manage my farm more efficiently and sustainably. I would use a weather forecasting app to help me to plan my planting and harvesting schedules. I would also use a soil testing kit to help me to determine the nutrient levels in my soil. This information would help me to choose the right crops to grow and to apply the right amount of fertilizer.
+
+I would also use technology to market my products. I would create a website and social media accounts to promote my farm and my products. I would also use online platforms to connect with buyers.
+
+By growing sustainable crops and using technology to manage my farm, I would be able to improve food security in Kakamega County while also creating a profitable business. I would also be able to produce natural healthy food that is good for my customers and for the environment.

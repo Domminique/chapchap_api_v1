@@ -1,0 +1,19 @@
+[
+
+    {
+        "name":  "ABC Hansen",
+        "Phone": "+27 12 803 0036",
+        "website":"https://www.abchansenafrica.co.za/",
+        "image":"https://www.abchansenafrica.co.za/images/main-images/Air-Conveyance.jpg",
+        "logo":"https://www.abchansenafrica.co.za/images/abc-hansen-africa-group-logo.png",
+        "price": 25,
+        "description": "ABC Hansen / Cormall group of companies from Denmark manufactures, distributes, imports and exports agro processing and food processing equipment and engineer complete turnkey plants for a variety of industries with a primary focus on grain storage, milling and oil processing industries. The company specializes in solutions to processors and would-be processors and its depth of knowledge therefore is not limited to the manufacture of machines only, it has successfully operated maize mills, wheat mills, oil expelling plants, bakeries, bakery ingredient blending plants, spice mills, dry food milling, extrusion and blending operations.",
+        "services": ["agro processing", "food processing"],
+        "products":["grain storage","milling and oil processing", "maize mills","wheat mills", "oil expelling plants", "bakeries","bakery ingredient blending plants","spice mills","dry food milling","extrusion and blending operations"],
+        "commodities":["maize","wheat", "oil plants", "bakeries","bakery","spice","dry food" ],
+        "company":"supplier", 
+        "rating": 4,
+        "country":"south africa",
+        "domain":"agriculture"
+}    
+]
