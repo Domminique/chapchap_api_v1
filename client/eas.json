@@ -1,28 +1,23 @@
 {
   "cli": {
-    "version": ">= 3.7.2"
+    "version": ">= 3.3.2"
   },
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "ios": {
-        "resourceClass": "m1-medium"
-      }
+      "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal",
-      "ios": {
-        "resourceClass": "m1-medium"
-      }
+      "distribution": "internal"
     },
-    "production": {
-      "ios": {
-        "resourceClass": "m1-medium"
-      }
-    }
+    "production": {}
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android":{
+        "serviceAccountKeyPath":"../pc-api-6082964670460802040-468-2fa7edce5ad6.json"
+        
+      }
+    }
   }
 }
