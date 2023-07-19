@@ -1,7 +1,7 @@
-import { View, Text } from 'react-native'
+import { View, Text,ScrollView } from 'react-native'
 import React from 'react'
 import { WebView } from 'react-native-webview';
-import { ScrollView } from 'native-base';
+
 
 
 const StatsScreen = () => {

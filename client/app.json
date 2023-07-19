@@ -1,20 +1,15 @@
 {
   "expo": {
-    "name": "chapchap",
-    "slug": "chapchap",
-    "version": "1.0.7",
+    "name": "client",
+    "slug": "client",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "chapchap",
-
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
+      "backgroundColor": "#eeeeee"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -23,26 +18,18 @@
       "supportsTablet": true
     },
     "android": {
-      "config": {
-        "googleMaps": {
-          "apiKey": "AIzaSyAzEyoWn-5M69xQpZDRE5Bp4VEizHyydfA"
-        }
-      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#ffffff"
       },
-      "package": "com.imbuga.chapchap",
-      "versionCode": 8
-     
+      "package": "com.imbuga.client"
     },
-   
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "f3f82dc4-a9e1-4b29-a5ee-a1ef63337aa1"
+        "projectId": "3f4e474f-1197-4c6f-a231-fb09441b135f"
       }
     }
   }
