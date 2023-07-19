@@ -38,8 +38,8 @@ const OnboardingScreen = () => {
                 source={require("../images/chapchap5.png")}
               />
             ),
-            title: "Onboarding 1",
-            subtitle: "Done with React Native onboarding swiper",
+            title: "Discover the Best Agriculture Marketplace.",
+            subtitle: "Get Started' to join our community and start buying or selling fresh farm produce today.",
           },
           {
             backgroundColor: "#fff",
@@ -49,8 +49,8 @@ const OnboardingScreen = () => {
                 source={require("../images/chapchap6.png")}
               />
             ),
-            title: "Onboarding 2",
-            subtitle: "Done with React Native onboarding swiper",
+            title: "Register with your email or phone number to get started.",
+            subtitle: "By signing up, you agree to our Terms of Service and Privacy Policy.",
           },
           {
             backgroundColor: "#fff",
@@ -60,8 +60,8 @@ const OnboardingScreen = () => {
                 source={require("../images/chapchap7.png")}
               />
             ),
-            title: "Onboarding 3",
-            subtitle: "Done with React Native onboarding swiper",
+            title: "Welcome to chapchap!",
+            subtitle: "Join our community and start buying or selling fresh farm produce today.",
             nextLabel: <Payments />,
           },
         ]}
